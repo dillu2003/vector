@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header .logo{
+            width: 25%;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hcon{
+            width: 40%;
+        }
+        .hcon ul{
+            display: flex;
+            justify-content: space-evenly;
+            color: orange;
+        }
+        .hcon ul:hover{
+            cursor: pointer;
+        }
+        .mat{
+            height: 85vh;
+            background-image: url(./vectormat.png);
+            filter: brightness(30%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .mat h1{
+            color:  darkorange;
+            font-size: 40px;
+        }
+        .mat h2{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./veclogo.png" alt="noimg">
+        </div>
+        <div class="hcon">
+            <ul style="list-style: none;">
+                <li>Home</li>
+                <li>About</li>
+                <li>Course</li>
+                <li>Register</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+    <div class="mat">
+        <h1><b>India's No1 training institute</b></h1>
+        <h2><b>To become a full-stack developer now you can join with us</b></h2>
+    </div>
+</body>
+</html>
